@@ -1,0 +1,16 @@
+.bold {
+  font-weight: bold;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.bor {
+  border-top: 3px solid black;
+}
+.icon {
+  width: 60px;
+}
