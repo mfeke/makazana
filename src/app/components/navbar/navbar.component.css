@@ -1,0 +1,9 @@
+.bor {
+  border-top: 3px solid black;
+}
+.icon {
+  width: 60px;
+}
+.d-none{
+    display: none !important;
+}

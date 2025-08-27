@@ -9,6 +9,9 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { SortPipe } from './sort.pipe';
 import { NumberLoginComponent } from './components/acounts/number-login/number-login.component';
+import { HomeComponent } from './components/home/home.component';
+import { SearchComponent } from './components/search/search.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -16,6 +19,9 @@ import { NumberLoginComponent } from './components/acounts/number-login/number-l
     AppComponent,
     SortPipe,
     NumberLoginComponent,
+    HomeComponent,
+    SearchComponent,
+    NavbarComponent,
 
   ],
   imports: [
