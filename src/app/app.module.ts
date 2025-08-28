@@ -12,6 +12,7 @@ import { NumberLoginComponent } from './components/acounts/number-login/number-l
 import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { TopnavbarComponent } from './components/topnavbar/topnavbar.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HomeComponent,
     SearchComponent,
     NavbarComponent,
+    TopnavbarComponent,
 
   ],
   imports: [

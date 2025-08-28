@@ -29,7 +29,6 @@ urrentIndex = 1;
     });
     this.apiService.getAllCountries().subscribe({
       next: (data) => {
-        console.log(data);
         this.countries = data;
       },
     });
