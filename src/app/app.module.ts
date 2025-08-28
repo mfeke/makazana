@@ -13,6 +13,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { TopnavbarComponent } from './components/topnavbar/topnavbar.component';
+import { BagComponent } from './components/bag/bag.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { TopnavbarComponent } from './components/topnavbar/topnavbar.component';
     SearchComponent,
     NavbarComponent,
     TopnavbarComponent,
+    BagComponent,
 
   ],
   imports: [
