@@ -1,4 +1,12 @@
 .logo{
-  width: 89px;
-  height: 28px;
+  width: 100px;  
+  height: 25px;
+}
+.icon{
+  height: 40px;
+  width: 40px;
+}
+.d-go{
+  position: relative;
+  top: -200px;
 }
