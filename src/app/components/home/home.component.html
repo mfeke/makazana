@@ -1,1 +1,45 @@
 <app-topnavbar> </app-topnavbar>
+
+<div id="carouselExample" class="px-2 pt-1 carousel slide">
+    <div class="carousel-inner">
+        <!-- <div class="carousel-item active">
+            <img src="https://i.postimg.cc/x1DS4SQR/graphics-home-4-410x487.jpg"
+                class="d-block w-100" alt="...">
+        </div> -->
+        <div class="carousel-item active">
+            <div class="con bg"
+                [style.background-image]="'url(' + imageUrl + ')'">
+                <div class="container py-2">
+                    <h2 class="text-white roboto-slab bold">GRAPHICS</h2>
+                </div>
+            </div>
+            <div class=" container pos">
+                <div class="bg-white p-2">
+                    <span class="text">SHOP NOW</span>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div> -->
+
+    </div>
+    <div class="d-flex d-go align-items-center px-2">
+        <button class="carousel-control-prev icon p-1 bg-black" type="button"
+            data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next bg-black p-1 icon " type="button"
+            data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</div>
