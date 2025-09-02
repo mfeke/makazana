@@ -48,3 +48,6 @@
 .text-s{
   font-size: 34px;
 }
+.line{
+  text-decoration: underline;
+}
